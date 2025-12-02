@@ -1,3 +1,5 @@
+_Note: This folder is empty since data distribution is not allowed by our license. Below we describe the expected structure of the directory and the organization of the data._
+
 # Storage description
 
 This data folder contain several subfolders defining different levels of maturity of data:
