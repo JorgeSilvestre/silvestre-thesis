@@ -1,0 +1,1 @@
+Debido a las condiciones de la licencia con la que se accedió a los datos utilizados, no es posible la distribución de los modelos desarrollados o los datos utilizados en su entrenamiento y evaluación.

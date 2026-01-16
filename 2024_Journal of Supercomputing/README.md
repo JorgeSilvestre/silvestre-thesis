@@ -1,6 +1,6 @@
 Materiales del artículo _A deep learning-based approach for predicting in-flight estimated time of arrival_ (2024).
 
-> Silvestre, J., Martínez-Prieto, M.A., Bregon, A. et al. A deep learning-based approach for predicting in-flight estimated time of arrival. J Supercomput 80, 17212–17246 (2024). https://doi.org/10.1007/s11227-024-06060-6
+> Silvestre, J., Martínez-Prieto, M.A., Bregon, A. et al. A deep learning-based approach for predicting in-flight estimated time of arrival. The Journal of Supercomputing, 80, 17212–17246 (2024). https://doi.org/10.1007/s11227-024-06060-6
 
 Enlace: https://doi.org/10.1007/s11227-024-06060-6
 
