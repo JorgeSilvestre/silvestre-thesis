@@ -28,26 +28,26 @@ airport_dest = ['LEMD']
 
 def _configure_mongo_client() -> pymongo.MongoClient:
     client = pymongo.MongoClient(
-        host='privata',
-        port=27017,
-        username='readBoeing',
-        password='Hp43Jbmc',
-        authSource='Boeing',
+        host='xxx',
+        port=1234,
+        username='username',
+        password='password',
+        authSource='authSource',
         maxPoolSize = 20,
         tls=True,
-        tlsCAFile='./certs/brtecacert001.crt'
+        tlsCAFile='./certs/cert.crt'
     )
     return client
 
 
 def _configure_hive_client() -> hive.Connection:
     try:
-        conn = hive.Connection(host="filisteo5.brte.boeing.es", port=10000, username="BRTE-jsilvestre" ,database="gold_zone")
+        conn = hive.Connection(host="host", port=10000, username="username" ,database="database")
         print ("Connected to Hive.")
     except ImportError as e:
         print ("cant connect to Hive: ", e)
         try:
-            conn = hive.Connection(host="filisteo6.brte.boeing.es", port=10000, username="BRTE-jsilvestre" ,database="gold_zone")
+            conn = hive.Connection(host="host", port=10000, username="username" ,database="database")
             print ("Connected to Hive.")
         except ImportError as e:
             print ("Cant connect to Hive: ", e)
